@@ -2,39 +2,39 @@ import datetime
 import os
 import shutil
 
+import numpy as np
 import pandas
 import pandas as pd
 import warnings
+
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 
-# Chemins
-# region Liste des chemins d'entrée 16/12/2022
+
 # Fournis par : Laboratoire
 path_Mapping = "0-Input/GMM_Mapping.xlsx"  # Fichier de mapping
-path_GMMUpdate = "0-Input/GMM_Update2.xlsx"  # Fichier d'update
+path_GMMUpdate = "0-Input/GMM_Update.xlsx"  # Fichier d'update
 # Liste des équipements maîtres
 path_MastEqt = "0-Input/MasterEquipments.xlsx"
 # Fournis par : Steeven
-path_GMM1 = "0-Input/GMM.xlsx"  # Fichier général (1)
+path_GMM1 = "0-Input/GMM.csv"  # Fichier général (1)
 path_GMM2 = "0-Input/GMM - Instruments Plastic Omnium Alphatech.csv"  # Fichier général (2)
-path_SubEqt = "0-Input/GMM Instruments liés.csv"  # Instruments liés
+path_SubEqt = "0-Input/GMM - Instruments liés.csv"  # Instruments liés
 # Fournis par : Deltamu
-path_Inter = "0-Input/PlasticOmnium.xlsx"  # Liste des interventions
+path_Inter = "0-Input/PlasticOmnium.xls"  # Liste des interventions
 path_InterDocs = "0-Input/PLAST-60/"  # Fichiers
-# endregion
 
-# region Liste des chemins de sortie 07/02/2023
-path_Export = "1-Output/Export.xlsm"
-path_Interventions = "1-Output/Export_Interventions.xlsx"
+# Liste des chemins de sortie
+path_Export = "1-Output/Export_Equipment.xlsm"
+path_Interventions = "1-Output/Export_Interventions.xlsm"
 path_Derogations = "1-Output/Export_Derogations.xlsx"
 path_Category = "1-Output/Export_Category.xlsx"
 path_StorageArea = "1-Output/Export_StorageArea.xlsx"
 
 path_Analyze = "1-Output/Analyze.xlsx"
-path_Export_Template = r'1-Output/0-Template/Equipment_Export_CES3.xlsm'
-# endregion
+path_Export_Template = r'1-Output/0-Template/2023-06-07_15-25-50_Equipments.xlsm'
+path_Export_Calibration_Template = r'1-Output/0-Template/2023-06-07_15-34-35_Calibrations.xlsm'
 
-# region Suppression des fichiers d'export existants 07/02/2023
+# Suppression des fichiers d'export existants
 if os.path.exists(path_Export):
     os.remove(path_Export)
 if os.path.exists(path_Analyze):
@@ -47,9 +47,7 @@ if os.path.exists(path_Interventions):
     os.remove(path_Interventions)
 if os.path.exists(path_Derogations):
     os.remove(path_Derogations)
-# endregion
 
-# region Création des dataframes de mapping 16/12/2022
 # Création du dataframe : mapping(CalibrationStatus)
 df_Mapping_CalibrationStatus = pandas.read_excel(path_Mapping, sheet_name="CalibrationStatus")
 df_Mapping_CalibrationStatus = df_Mapping_CalibrationStatus.reset_index()
@@ -70,38 +68,19 @@ df_Mapping_CalibrationSupplier = df_Mapping_CalibrationSupplier.reset_index()
 df_Mapping_EquipmentType = pandas.read_excel(path_Mapping, sheet_name="EquipmentType_Chain")
 df_Mapping_EquipmentType = df_Mapping_EquipmentType.reset_index()
 
-# Création du dataframe : mapping(Domain)
-df_Mapping_Domain = pandas.read_excel(path_Mapping, sheet_name="Domain")
-df_Mapping_Domain = df_Mapping_Domain.reset_index()
-
-# Création du dataframe : mapping(Laboratory)
-df_Mapping_Laboratory = pandas.read_excel(path_Mapping, sheet_name="Laboratory")
-df_Mapping_Laboratory = df_Mapping_Laboratory.reset_index()
-
 # Création du dataframe : mapping(GMM)
 df_Mapping_Update = pandas.read_excel(path_GMMUpdate, sheet_name="GMM")
 df_Mapping_Update = df_Mapping_Update.reset_index()
-# endregion
 
-# region Création de la liste des équipements 16/12/2022
-df_GMM2 = pd.read_csv(path_GMM2, sep=';')  # Création du dataframe : liste des équipements (1)
-df_GMM2 = df_GMM2.reset_index()
-# Epurage des colonnes
-list_to_pop = ['Affectation', 'Sous-Affectation', 'Désignation',
-               'Informations liées (Identification, Désignation, N° de série)',
-               "Etat d'utilisation", 'N° de série', 'Commentaire']
-[df_GMM2.pop(col) for col in list_to_pop]
+# Création de la liste des équipements
+list_to_keep = ['Identification', 'Gamme', 'Tolérance', 'Avis',
+                "Date d'intervention", "Prochaine date d'intervention", 'Périodicité']
+df_GMM2 = pd.read_csv(path_GMM2, sep=';', usecols=list_to_keep)
 
-df_GMM1 = pd.read_excel(path_GMM1, sheet_name="GMM")  # Création du dataframe : liste des équipements (2)
-df_GMM1 = df_GMM1.reset_index()
-# Epurage des colonnes
-list_to_pop = ['Code', "Famille d'instrument", 'Type', "Nombre d'éléments", 'Fournisseur', "Prix d'achat",
-               "Date d'achat", 'Constructeur', 'Référence constructeur', "N° de série", 'Mode de lecture',
-               'Particularité', 'Matière', 'Commentaire', 'Valeur nominale', 'Unité', 'Référentiel', 'Résolution',
-               'Désignation littérale', "N° d'immobilisation", 'Code instrument', 'Gestionnaire', 'Ident. secondaire',
-               'Localisation temporaire', 'Unité de la résolution', 'Localisation']
-[df_GMM1.pop(col) for col in list_to_pop]
-df_GMM1.rename(columns={"État d'utilisation": "Etat d'utilisation"}, inplace=True)
+list_to_keep = ['Identification', 'Domaine', 'Désignation', "Etat d'utilisation", 'Statut', 'Localisation']
+
+df_GMM1 = pd.read_csv(path_GMM1, sep=';', encoding="ISO-8859-1", usecols=list_to_keep)
+df_GMM1.rename(columns={'Domaine': 'Domaine de mesure'}, inplace=True)
 
 df_GMM = pd.merge(df_GMM1, df_GMM2, on='Identification')  # Fusion des 2 dataframes
 # endregion
@@ -170,38 +149,42 @@ df_GMM['Est. calibration time'] = df_GMM['Identification'].replace(replace_dict)
 # Création de la colonne 'Est. Cost' dans GMM
 replace_dict = df_Mapping_Update.set_index('Identification')['Est. Cost'].to_dict()
 df_GMM['Est. cost'] = df_GMM['Identification'].replace(replace_dict)
+# Création de la colonne 'Est. Cost' dans GMM
+replace_dict = df_Mapping_Update.set_index('Identification')['Code'].to_dict()
+df_GMM['Business group'] = df_GMM['Identification'].replace(replace_dict)
 # endregion
+
+df_GMM['Plannable'] = 'Yes'
+replace_dict = df_Mapping_Update.set_index('Identification')['Plannable'].to_dict()
+df_GMM['Plannable'] = df_GMM['Identification'].replace(replace_dict)
+
+
 # region A-13 Ajout: Naming rule
 for new_itr, select_row in df_GMM.iterrows():  # Création de la colonne 'Naming rule' dans GMM
     df_GMM.at[new_itr, 'Naming rule'] = str(select_row["Identification"]) + "_" + str(select_row["Equipment name"])
 # endregion
 
-# B : Concaténation de la liste des interventions *27/01/2023
-# (!)(!) Etalonnage > Operations; Derogations > Derogations; Changements de statut/gamme/tolérance > Tracking (!)(!)
-# region 000 Lecture du fichier contenant les interventions
+# Concaténation de la liste des interventions
+# Lecture du fichier contenant les interventions
 df_Inter = pd.read_excel(path_Inter, sheet_name='Documents')
 df_Inter = df_Inter.reset_index()
 df_Inter.pop('CODE')  # Epurage des colonnes
-# endregion
-# region 000 Retouche des noms des colonnes
+# Retouche des noms des colonnes
 df_Inter.rename(columns={'IDENTIFICATION': 'Identification'}, inplace=True)
 df_Inter.rename(columns={'INTER': 'Intervention'}, inplace=True)
 df_Inter.rename(columns={'DATE_INTER': "End date"}, inplace=True)
 df_Inter.rename(columns={'TITRE': 'Calibration certificat'}, inplace=True)
 df_Inter.rename(columns={'AVIS': 'Compliance status'}, inplace=True)
-# endregion
-# region 000 Ajout des colonnes nécessaires
+# Ajout des colonnes nécessaires
 df_Inter['Naming rule'] = 0
 df_Inter['Calibration type'] = 0
 df_Inter['Operation status'] = "Closed"
 df_Inter['Compliance comment(s)'] = "Imported from Deltamu/Optimu software."
 df_Inter['Start date'] = df_Inter['End date']  # Ajout de la date de début
-# endregion
-# region B-01 Ajout: Calibration certificat path
+# Ajout: Calibration certificat path
 for new_itr, select_row in df_Inter.iterrows():
     df_Inter.at[new_itr, 'Calibration certificat path'] = path_InterDocs + select_row['Calibration certificat']
-# endregion
-# region B-02 Remplacement: Intervention type
+# Remplacement: Intervention type
 # Remplacer les valeurs d'apprès le fichier de mapping : col[Intervention type]
 replace_dict = df_Mapping_InterventionType.set_index('GMM values')['Intervention type'].to_dict()
 df_Inter['Intervention type'] = df_Inter['Intervention'].replace(replace_dict)
@@ -209,8 +192,8 @@ df_Inter = df_Inter[~df_Inter['Intervention type'].str.contains("NA", na=True)] 
 # endregion
 # region B-03 Modification de format: End date; Start date
 # Changement de format des dates
-df_Inter["End date"] = pd.to_datetime(df_Inter["End date"], errors='coerce', format='%d/%m/%Y')
-df_Inter["Start date"] = pd.to_datetime(df_Inter["Start date"], errors='coerce', format='%d/%m/%Y')
+df_Inter["End date"] = pd.to_datetime(df_Inter["End date"], errors='coerce', format='%Y-%m-%d %H:%M:%S')
+df_Inter["Start date"] = pd.to_datetime(df_Inter["Start date"], errors='coerce', format='%Y-%m-%d %H:%M:%S')
 # Tri des dates d'interventions pour préparer la concaténation
 df_Inter = df_Inter.sort_values(by="End date", ascending=False)
 df_Inter['Year'] = df_Inter['End date'].dt.strftime('%Y')
@@ -243,7 +226,35 @@ df_Inter1 = df_Inter[df_Inter['Calibration type'] == 'External calibration']
 df_Inter1 = df_Inter1[['Naming rule', 'Calibration type', 'Operation status', 'Associated equipment', 'Start date',
                        'End date', 'Compliance status', 'Compliance comment(s)', 'Calibration certificat',
                        'Calibration certificat path']]
-df_Inter1.to_excel(path_Interventions)
+
+df_Inter1.rename(columns={'Naming rule': 'Attributes:'}, inplace=True)
+
+# Création du fichier de sortie final
+# Importation du template de BASSETTI dans un dataframe
+sheets_dict = pd.read_excel(path_Export_Calibration_Template, sheet_name='Calibration operation', skiprows=9, nrows=1)
+sheets_dict.columns = sheets_dict.iloc[0]
+sheets_dict = sheets_dict[1:]
+# Match l'ordre des colonnes avec le template de BASSETTI
+for i in df_Inter1:
+    found = False
+    for j in sheets_dict:
+        if i == j:
+            sheets_dict[j] = df_Inter1[i]
+            found = True
+    if not found:
+        print(f'"{i}" not found')
+# Suppression des colonnes inutiles
+sheets_dict.drop(sheets_dict.columns[0], axis=1, inplace=True)
+# Création du fichier de sortie: path_Export
+
+shutil.copyfile(path_Export_Calibration_Template, path_Interventions)
+writer = pd.ExcelWriter(path_Interventions, engine='openpyxl', mode='a', if_sheet_exists='overlay',
+                        engine_kwargs={'keep_vba': True})
+sheets_dict.to_excel(writer, sheet_name='Calibration operation', startrow=11, startcol=1, header=False, index=False)
+writer.close()
+
+# df_Inter1.to_excel(path_Interventions)
+
 # endregion
 # region B-08 Création du fichier de sortie : path_Derogations
 df_Inter.rename(columns={'Operation status': 'Status'}, inplace=True)
@@ -272,8 +283,6 @@ df_Event = df_Inter.groupby(['Identification']).agg({'Historique': "\n".join})
 df_Event['Historique'] = df_Event['Historique'].str.replace("nan", "NA")
 # Concaténation dans le dataframe principal
 df_GMM = pd.merge(df_GMM, df_Event, on='Identification', how='left', suffixes=('', '_y'))
-list_to_pop = ['index_x', 'index_y']  # Epurage des colonnes
-[df_GMM.pop(col) for col in list_to_pop]
 # endregion
 # region #>B-10 Ajout: Last calibration status
 df_Inter = df_Inter[df_Inter['Intervention type'] == 'Calibration']
@@ -414,69 +423,43 @@ for new_itr, select_row in df_GMM.iterrows():
     else:
         df_GMM.at[new_itr, 'Statut'] = select_row['Statut']
 # endregion
-# region #>F09 Vérification: Calibration status == Out of date
+# Vérification: Calibration status == Out of date
 df_GMM.rename(columns={"Prochaine date d'intervention": 'Date of next calibration'}, inplace=True)
 # Vérification de la prochaine date d'étalonnage et changement du statut de calibration
 for new_itr, select_row in df_GMM.iterrows():
     if not pd.isnull(select_row['Date of next calibration']):
-        if datetime.datetime.strptime(select_row['Date of next calibration'], '%d/%m/%Y %H:%M:%S') < \
+        if datetime.datetime.strptime(select_row['Date of next calibration'], '%d/%m/%Y %H:%M') < \
                 datetime.datetime.today():
             df_GMM.at[new_itr, 'Calibration status'] = "Out of date"
-# endregion
-# region #>F10 Remplacement: Statut > Equipment type
 # Création de la colonne 'Equipment type' dans GMM
 replace_dict = df_Mapping_EquipmentType.set_index('GMM values')['Equipment type'].to_dict()
 df_GMM['Equipment type'] = df_GMM['Statut'].replace(replace_dict)
-# endregion
-# region #>F11 Ajout: Statut > Measuring chain
 # Création de la colonne 'Measuring chain' dans GMM
 replace_dict = df_Mapping_EquipmentType.set_index('GMM values')['Measuring chain'].to_dict()
 df_GMM['Measuring chain'] = df_GMM['Statut'].replace(replace_dict)
-# endregion
-# region #>F12 Ajout: Calibration type
 # Création de la colonne 'Calibration type' dans GMM
 replace_dict = df_Mapping_CalibrationSupplier.set_index('GMM values')['Calibration type'].to_dict()
 df_GMM['Calibration type'] = df_GMM['Equipment category'].replace(replace_dict)
-# endregion
-# region #>F13 Ajout: Calibration suppliers
 # Création de la colonne 'Calibration supplier' dans GMM
 replace_dict = df_Mapping_CalibrationSupplier.set_index('GMM values')['Calibration supplier'].to_dict()
 df_GMM['Calibration suppliers'] = df_GMM['Equipment category'].replace(replace_dict)
-# endregion
-# region #>F14 Ajout: Applicable norms
 # Création de la colonne 'Applicable norms' dans GMM
-replace_dict = df_Mapping_CalibrationSupplier.set_index('GMM values')['Applicable norms'].to_dict()
-df_GMM['Applicable norms'] = df_GMM['Equipment category'].replace(replace_dict)
-# endregion
-# region #>F15 Ajout: Standard gages
+df_GMM['Applicable norms'] = df_GMM['Equipment category']
 # Création de la colonne 'Standard gages' dans GMM
-replace_dict = df_Mapping_CalibrationSupplier.set_index('GMM values')['Standard gages'].to_dict()
-df_GMM['Standard gages'] = df_GMM['Equipment category'].replace(replace_dict)
-# endregion
-# region #>F16 Ajout: Laboratory
+df_GMM['Standard gages'] = df_GMM['Equipment category']
 # Création de la colonne 'Laboratory' dans GMM
-replace_dict = df_Mapping_Laboratory.set_index('GMM values')['Laboratory'].to_dict()
-df_GMM['Laboratory'] = df_GMM['Affected person'].replace(replace_dict)
+# replace_dict = df_Mapping_Laboratory.set_index('GMM values')['Laboratory'].to_dict()
+df_GMM['Laboratory'] = df_GMM['Affected person']
 # endregion
-# region #>F17 Ajout: Business group
 # Création de la colonne 'Business group' dans GMM
-replace_dict = df_Mapping_Laboratory.set_index('GMM values')['Business group'].to_dict()
-df_GMM['Business group'] = df_GMM['Affected person'].replace(replace_dict)
-# endregion
-# region #>000 Epurage des colonnes
+# replace_dict = df_Mapping_Laboratory.set_index('GMM values')['Business group'].to_dict()
+# df_GMM['Business group'] = df_GMM['Affected person'].replace(replace_dict)
+# Epurage des colonnes
 list_to_pop = ["Etat d'utilisation", 'Statut', 'Calibration period unit', 'Désignation']  # Epurage des colonnes
 [df_GMM.pop(col) for col in list_to_pop]
-# endregion
 
-# region ###> G Ajout de la liste des équipements maîtres du laboratoire *??/??/????
-# # df_MastEqt = pd.read_excel(path_MastEqt, sheet_name='Sheet1')
-# # df_MastEqt = df_MastEqt.reset_index()
-# #
-# # df_GMM = pd.concat(df_GMM,df_MastEqt,on='Identification')
-# endregion
-
-# H Mise en accord avec le dictionnaire *07/02/2023
-# region 000 Renommage des colonnes en fonction du dictionnaire
+# Mise en accord avec le dictionnaire
+# Renommage des colonnes en fonction du dictionnaire
 df_GMM.rename(columns={'Naming rule': 'Attributes:'}, inplace=True)
 df_GMM.rename(columns={'Identification': 'Equipment number'}, inplace=True)
 df_GMM.rename(columns={'Equipment status': 'Equipment Status'}, inplace=True)
@@ -493,40 +476,39 @@ df_GMM.rename(columns={"Est. downtime": 'Estimated downtime'}, inplace=True)
 df_GMM.rename(columns={"Est. calibration time": 'Estimated time of  calibration'}, inplace=True)
 df_GMM.rename(columns={"Est. cost": 'Estimated cost of calibration'}, inplace=True)
 df_GMM.rename(columns={'Historique': 'Historic'}, inplace=True)
-# endregion
-# region 000 Création des colonnes du dictionnaire non existantes
-df_GMM['Plannable'] = "No"
-df_GMM['Approval necessary for calibration'] = "No"
-df_GMM['Legal entity'] = "CES"
-df_GMM['Method(s)'] = ""
-df_GMM['Measured points'] = ""
-df_GMM['Criteria defined by'] = ""
-df_GMM['Plan of laboratory'] = ""
-# endregion
+# Création des colonnes du dictionnaire non existantes
+df_GMM['Approval necessary for calibration'] = 'No'
+df_GMM['Legal Entity'] = 'CES'
+df_GMM['Method(s)'] = ''
+df_GMM['Measured points'] = ''
+df_GMM['Criteria defined by'] = ''
+df_GMM['Plan of laboratory'] = ''
 
-# I Création du fichier de sortie final *07/02/2023
-# region 000 Importation du template de BASSETTI dans un dataframe
-sheets_dict = pd.read_excel(path_Export_Template, sheet_name='Equipment')
-sheets_dict.drop([0, 1, 2, 3, 4, 5, 6, 7, 8], axis=0, inplace=True)
+df_GMM['Measuring chain'] = np.where(df_GMM['Measuring chain'], 'true', 'false')
+df_GMM['Date of last calibration'] = df_GMM['Date of last calibration'].fillna("To be determined")
+
+df_GMM.to_excel('Export.xlsx')
+
+# Création du fichier de sortie final
+# Importation du template de BASSETTI dans un dataframe
+sheets_dict = pd.read_excel(path_Export_Template, sheet_name='Equipment', skiprows=9, nrows=1)
 sheets_dict.columns = sheets_dict.iloc[0]
 sheets_dict = sheets_dict[1:]
-
-# endregion
-# region 000 Match l'ordre des colonnes avec le template de BASSETTI
+# Match l'ordre des colonnes avec le template de BASSETTI
 for i in df_GMM:
+    found = False
     for j in sheets_dict:
         if i == j:
             sheets_dict[j] = df_GMM[i]
-# endregion
-# region 000 Suppression des colonnes inutiles
+            found = True
+    if not found:
+        print(f'"{i}" not found')
+# Suppression des colonnes inutiles
 sheets_dict.drop(sheets_dict.columns[0], axis=1, inplace=True)
-# endregion
-# region 000 Création du fichier de sortie: path_Export
+# Création du fichier de sortie: path_Export
 
 shutil.copyfile(path_Export_Template, path_Export)
-
 writer = pd.ExcelWriter(path_Export, engine='openpyxl', mode='a', if_sheet_exists='overlay',
                         engine_kwargs={'keep_vba': True})
 sheets_dict.to_excel(writer, sheet_name='Equipment', startrow=11, startcol=1, header=False, index=False)
 writer.close()
-# endregion

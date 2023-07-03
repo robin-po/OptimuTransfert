@@ -1,22 +1,36 @@
 ﻿Affectation;Sous-Affectation;Désignation;Informations liées (Identification, Désignation, N° de série);Identification;Gamme;Tolérance;Avis;Etat d'utilisation;Date d'intervention;Prochaine date d'intervention;Périodicité;N° de série;Commentaire
 ASS;A. SOYER;Multimeter;;CASS0027;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;05/07/2022 00:00;05/07/2023 00:00;12 Mois;20550506;
+ASS;ZONE ADM;Testeur de fuite;;CASS0029;1,3E-09 / 2,5E-06mbar.L/s;± 20 %;;Réformé;;;;HLD1050697;
+ASS;Y. SOUPLY;Micrometer Outside;;CASS0124;25 / 50 mm;± 0,01 mm;Conforme;Envoi Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;SANS;
+ASS;Y. SOUPLY;Micrometer Outside;;CASS0125;0 / 25 mm;± 0,01 mm;Conforme;Envoi Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;SANS;
+ASS;ARMOIRE;Temperature sensor;Identification : CASS0166, N° de Série : 337111083/511;CASS0155;40/300°C;± 1°C;;Perdu;;;;SANS;
 ASS;ARMOIRE;Trigger torque spanner;;CASS0164;5/25Nm;± 4 %;Conforme;En service;22/08/2022 00:00;22/08/2023 00:00;12 Mois;sans;
+ASS;ZONE ADM;Leak detectors;;CASS0170;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Etalonnage/Vérification en cours;26/04/2021 00:00;26/04/2023 00:00;24 Mois;283-2284;
+BMG;\;scale;;CBMG0096;0 / 50 kg ;±100g;Conforme;Alerte Etalonnage/Vérification;16/06/2021 14:14;16/06/2023 14:14;24 Mois;B510678268;
 CAL;BENCH 4;Oscilloscope;;CCAL0002;GAMME CONSTRUCTEUR; TOLERANCE CONSTRUCTEUR;Conforme;Alerte Etalonnage/Vérification;22/07/2022 00:00;22/07/2023 00:00;12 Mois;my54230681;
 CAL;BENCH 3;stabilised power supply;;CCAL0003; GAMME CONSTRUCTEUR; TOLERANCE CONSTRUCTEUR;Conforme;Alerte Etalonnage/Vérification;29/07/2021 15:27;29/07/2023 15:27;24 Mois;/;
+CAL;BENCH 3;stabilised power supply;;CCAL0004;0/5V0/30V;5V +/-5%30V +/-5%;;Perdu;;;;MY54080008;"11/02/2019:
+
+Voie 1 Hors service.
+
+"
+CAL;A-CAL-01;Electrics charge;;CCAL0050;0,1/100 ohms;Resistance mode +/- 0,5%;Conforme;En service;15/12/2020 11:24;15/12/2023 11:24;36 Mois;416337;
+CAL;ARMOIRE;Stabilised power supply;;CCAL0059;0/52V 1500W;+/-1%;Conforme;Etalonnage/Vérification en cours;15/04/2021 13:09;15/04/2023 13:09;24 Mois;10128169;
+CAL;GENERIC BENCH2;Stabilised power supply;;CCAL0063;0/52V 1500W;+/-1%;;Non soumis à l'étalonnage;;;;10072260;
 CAL;GENERIC BENCH2;Stabilised power supply;;CCAL0064;0/45V 1500W;+/-1%;Conforme;Alerte Etalonnage/Vérification;28/06/2021 11:33;28/06/2023 11:33;24 Mois;10065089;
-CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0133;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;16/08/2021 10:45;16/08/2023 10:45;24 Mois;LOC-617A086-0012;
-CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0134;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;16/08/2021 13:51;16/08/2023 13:51;24 Mois;LOC-617A086-0013;
-CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0135;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;16/08/2021 14:01;16/08/2023 14:01;24 Mois;LOC-622A280-0002;
-CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0136;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;16/08/2021 13:32;16/08/2023 13:32;24 Mois;SANS;
+CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0133;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;16/08/2021 10:45;16/08/2023 10:45;24 Mois;LOC-617A086-0012;
+CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0134;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;16/08/2021 13:51;16/08/2023 13:51;24 Mois;LOC-617A086-0013;
+CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0135;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;16/08/2021 14:01;16/08/2023 14:01;24 Mois;LOC-622A280-0002;
+CAL;BANC MOBILE 2;Stabilised power supply;;CCAL0136;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;16/08/2021 13:32;16/08/2023 13:32;24 Mois;SANS;
 CAL;ARMOIRE;Stabilised power supply;;CCAL0146;0/52V 1500W;+/-1%;Conforme;En service;26/08/2021 14:46;26/08/2023 14:46;24 Mois;10128139;
-CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0153;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;17/08/2021 12:18;17/08/2023 12:18;24 Mois;LOC-628A121-0003;
-CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0154;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;17/08/2021 12:26;17/08/2023 12:26;24 Mois;LOC-628A121-0002;
-CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0155;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;17/08/2021 12:39;17/08/2023 12:39;24 Mois;LOC-630A442-0004;
-CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0156;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;17/08/2021 12:54;17/08/2023 12:54;24 Mois;LOC-630A442-0003;
+CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0153;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;17/08/2021 12:18;17/08/2023 12:18;24 Mois;LOC-628A121-0003;
+CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0154;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;17/08/2021 12:26;17/08/2023 12:26;24 Mois;LOC-628A121-0002;
+CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0155;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;17/08/2021 12:39;17/08/2023 12:39;24 Mois;LOC-630A442-0004;
+CAL;BANC MOBILE 1;Stabilised power supply;;CCAL0156;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;17/08/2021 12:54;17/08/2023 12:54;24 Mois;LOC-630A442-0003;
 CAL;ARMOIRE;Ad scan;;CCAL0163;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;;Alerte Etalonnage/Vérification;03/08/2018 12:52;03/08/2023 12:52;60 Mois;13486-ADMD;
 CAL;ARMOIRE;Ad scan;;CCAL0168;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;30/07/2018 00:00;30/07/2023 00:00;60 Mois;7976-ADMD;
-CAL;ARMOIRE;Stabilised power supply;;CCAL0240;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;17/08/2021 15:46;17/08/2023 15:46;24 Mois;LOC-725A353-0007;
-CAL;ARMOIRE;Stabilised power supply;;CCAL0246;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;Alerte Etalonnage/Vérification;17/08/2021 13:30;17/08/2023 13:30;24 Mois;LOC-724A022-0006;
+CAL;ARMOIRE;Stabilised power supply;;CCAL0240;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;17/08/2021 15:46;17/08/2023 15:46;24 Mois;LOC-725A353-0007;
+CAL;ARMOIRE;Stabilised power supply;;CCAL0246;0-20V0-38 A;± 0,5 V± 0,1216 A;Conforme;En service;17/08/2021 13:30;17/08/2023 13:30;24 Mois;LOC-724A022-0006;
 CAL;BENCH 3;Stabilised power supply;;CCAL0354;REVOIR GAMME CONSTRUCTEUR;REVOIR TOLERANCE CONSTRUCTEUR;Conforme;Alerte Etalonnage/Vérification;29/07/2021 00:00;29/07/2023 00:00;24 Mois;122607QDV;
 CAL;ARMOIRE;Pressure sensor;;CCAL0386;-1/16 Bar;+/-0,25 %FS;Conforme;Alerte Etalonnage/Vérification;02/07/2021 10:37;02/07/2023 10:37;24 Mois;19120001;
 CAL;ARMOIRE;Pressure sensor;;CCAL0388;-1/16 Bar;+/-0,25 %FS;Conforme;Alerte Etalonnage/Vérification;29/07/2021 16:17;29/07/2023 16:17;24 Mois;19120008;
@@ -24,63 +38,29 @@ CAL;ARMOIRE;Pressure sensor;;CCAL0389;-1/16 Bar;+/-0,25 %FS;Conforme;Alerte Etal
 CAL;ARMOIRE;Pressure sensor;;CCAL0390;-1/16 Bar;+/-0,25 %FS;Conforme;Alerte Etalonnage/Vérification;29/06/2021 10:05;29/06/2023 10:05;24 Mois;19120006;
 CAL;ARMOIRE;Pressure sensor;;CCAL0391;-1/16 Bar;+/-0,25 %FS;Conforme;Alerte Etalonnage/Vérification;29/06/2021 16:17;29/06/2023 16:17;24 Mois;19120005;
 CAL;ARMOIRE;Pressure sensor;;CCAL0392;-1/16 Bar;+/-0,25 %FS;Conforme;Alerte Etalonnage/Vérification;29/07/2021 14:56;29/07/2023 14:56;24 Mois;19120007;
-CAL;ARMOIRE;Multimeter;;CCAL0465;gammes constructeur;tolérance constructeur;Conforme;En service;02/09/2022 00:00;02/09/2023 00:00;12 Mois;53870178;
 CAL;ARMOIRE;Multimeter;;CCAL0466;gammes constructeur;tolérance constructeur;Conforme;Alerte Etalonnage/Vérification;20/07/2021 00:00;20/07/2023 00:00;24 Mois;245308240;
-CAL;ARMOIRE;Clé dynamométrique à lecture directe;;CCAL0658;5/25 Nm;+/- 6%;Conforme;En service;18/09/2021 00:00;18/09/2023 00:00;24 Mois;454926;
 CAL;ARMOIRE;Multimeter;;CCAL0715;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;25/07/2022 14:39;25/07/2023 14:39;12 Mois;MY45001493;
 CAL;ARMOIRE;Générateur de fonction;;CCAL0716;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;01/08/2022 00:00;01/08/2023 00:00;12 Mois;532384;
-CAL;ARMOIRE;Clé dynamométrique à lecture directe;;CCAL0723;0,5/2 Nm;+/- 6%;Conforme;En service;06/09/2021 00:00;06/09/2023 00:00;24 Mois;/;
+CAL;A-CAL-01;Caliper;;CCAL0750;0-500 mm;± 0,1 mm;Conforme;Etalonnage/Vérification en cours;05/05/2021 00:00;05/05/2023 00:00;24 Mois;21531;
 COM;COM-002_ BANC 1;Ohmmeter;;CCOM0028;5/400 400/650 Ohm;±1 Ohm  ±2 Ohm ;Conforme;Alerte Etalonnage/Vérification;08/07/2022 09:40;08/07/2023 09:40;12 Mois;NA;
 COM;COM-002_ BANC 2;Ohmmeter;;CCOM0031;5/400 400/650 Ohm;±1 Ohm  ±2 Ohm ;Conforme;Alerte Etalonnage/Vérification;08/07/2022 09:45;08/07/2023 09:45;12 Mois;NA;
 COM;A-COM-02;Multimeter;;CCOM0062;"0/600 Ohm; 0/6 kOhm; 0/60 V DC; 0/10 A DC";"±0,3 Ohm; ±1 Ohm; ±40 mV; ±50 mA";Conforme;Alerte Etalonnage/Vérification;05/07/2022 00:00;05/07/2023 00:00;12 Mois;31360855WS;
-COM;A-COM-02;Depth gauge;;CCOM0064;0/300 mm;±0,1 mm;Conforme;En service;15/09/2021 00:00;15/09/2023 00:00;24 Mois;3050;
 COM;A-COM-02;Digital Manometer;;CCOM0088;-350/350 mbar;±2,5 mbar;Conforme;Alerte Etalonnage/Vérification;29/06/2021 00:00;29/06/2023 00:00;24 Mois;11971907;
 FEP;;Slide Gauge;;CDEV0008;0/150 mm;+/- 0,1mm;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;sans;
 ZONE CALIBRATION;;Jauge de profondeur;;CDEV0009;0/300 mm;+/- 0,1mm;Conforme;Sommeil;24/08/2021 00:00;24/08/2023 00:00;24 Mois;15279;
-EMI;MINI-SHED N°4;Thermostatic chamber;;CEMI0003;18/42 °C;±1,5 °C;Conforme;En service;12/09/2022 11:07;12/09/2023 11:07;12 Mois;NA;"Réunion 02/02/2018: Utilisation avec Restriction de 16 à 40°C. Prévoir intervention maintenance.
-
-Gammes à clarifier.
-
-
-02/05/2018: TOL: +/- 1,5 °C à +/- 2°C.
-15/05/2018: TOL: +/- 2°C à +/- 1,5°C suite au mail de M.MERCIER.
-
-12/07/2018:  Correction de l'offset de l'enceinte à 45°C. 
-
-18/07/2018: Pierre voit avec MAxime MErcier Fiori.
-
-05/11/2018: Calibration à faire en début année 2019, En attendant définir la surface d'étalonnage balissage (paraport au bati).
-
-"
+EMI;ARMOIRE;Scale;;CEMI0004;At 220 g;±0,02 g;Conforme;Retard (dans tolérance) Etalonnage/Vérification;08/06/2021 11:25;08/06/2023 11:25;24 Mois;NA;
 EMI;BANC HÉLIUM;Helium detector;;CEMI0005;1.10-6/1.10-4 mbar L/s;±10 %RV;Conforme;Alerte Etalonnage/Vérification;29/07/2021 00:00;29/07/2023 00:00;24 Mois;20037;02/05/2018: Selon préconisation fournisseur. Pas de non conformité sur les 3 dernières étalonnage.Passage à 2 ans. 
-EMI;EMI-007;Thermostatic chamber;;CEMI0061;18/42 °C;±1,5 °C;Conforme;En service;15/09/2022 09:46;15/09/2023 09:46;12 Mois;6,0222E+12;"Réunion 02/02/2018: Utilisation avec Restriction de 16 à 40°C. Prévoir intervention maintenance.
-
-Gammes à clarifier.
-
-
-02/05/2018: TOL: +/- 1,5 °C à +/- 2°C.
-15/05/2018: TOL: +/- 2°C à +/- 1,5°C suite au mail de M.MERCIER.
-
-12/07/2018:  Correction de l'offset de l'enceinte à 45°C. 
-
-18/07/2018: Pierre voit avec MAxime MErcier Fiori.
-
-05/11/2018: Calibration à faire en début année 2019, En attendant définir la surface d'étalonnage balissage (paraport au bati).
-
-"
+EMI;BANC PRÉC. CANISTERS;Scale;;CEMI0006;0/1 kg;±0,2 g;Conforme;Alerte Etalonnage/Vérification;14/06/2021 15:44;14/06/2023 15:44;24 Mois;NA;
+EMI;BANC PRÉC. CANISTERS;Scale;;CEMI0007;0/1 kg;±0,2 g;Conforme;Alerte Etalonnage/Vérification;14/06/2021 15:47;14/06/2023 15:47;24 Mois;NA;
+EMI;ARMOIRE;Scale;;CEMI0037;0/6 kg;±1 g;Conforme;Retard (dans tolérance) Etalonnage/Vérification;08/06/2021 11:30;08/06/2023 11:30;24 Mois;NA;
+EPE;A-ATEX-01;Pressure gauge;;CEPE0006;-1/+3 bar;±10 mbar;;Perdu;;;;1000011904;
 IVC;EPE-09\ IVC;Enceinte thermostatique;;CEPE0008;55°C;± 5°C;Conforme;En service;19/08/2019 16:37;19/08/2023 16:37;48 Mois;2004031;"40°C NON CONFORME, MAIS CONFORME à 53°C et 55°C UTILISABLE SUR C'EST POINT.
 "
-EPE;A-ATEX-01;Pressure sensor;;CEPE0062;-400/+400 mbar;±2 mbar;Conforme;En service;06/09/2021 15:07;06/09/2023 15:07;24 Mois;5584747;
+FEP;TABLE;RVP measuring device;;CEPE0010;0/20 Psi;±0,2 Psi;Conforme;Alerte Etalonnage/Vérification;16/06/2022 15:26;16/06/2023 15:26;12 Mois;16/08/2173;
+EPE;A-ATEX-02;Field meter;;CEPE0035;-20/+20 kV;± 5% RV;Conforme;Sommeil;04/01/2021 15:39;;24 Mois;72313;04/05/2018:Attente PV: Rémi Grimeau
+EPE;A-ATEX-02;Display of Field meter;;CEPE0039;-20/+20 kV;± 5% RV;Conforme;Envoi Envoi Etalonnage/Vérific en cours;28/10/2020 14:06;28/10/2022 14:06;24 Mois;160347/54877;04/05/2018:Attente PV: Rémi Grimeau
+EPE;A-ATEX-02;Field meter;;CEPE0042;-20/+20 kV;± 5% RV;Conforme;Sommeil;04/01/2021 00:00;;24 Mois;73216;04/05/2018:Attente PV: Rémi Grimeau
 EPE;A-ATEX-01;Pressure sensor;;CEPE0071;-500/ 500 mbar;±2 mbar;Conforme;Alerte Etalonnage/Vérification;05/03/2020 10:54;06/08/2023 10:54;24 Mois;5611853;
-FEP;FEP-006 (SALLE CHAUDE N°2);Soaking room;;CFEP0003;40 °C;±2 °C;Conforme;En service;31/08/2021 08:53;31/08/2023 08:53;24 Mois;NA;"réunion 02/02/2018: utilisation sous restriction avec thermocouple.
-
-Informé M. Mercier.
-
-02/05/2018: Intervention BV froid à prévoir.
-
-
-12/07/2018:  Vérification étanchéité de la porte."
-FEP;FEP-007 (SALLE CHAUDE N°3);Soaking room;;CFEP0004;40 °C;±2 °C;Conforme;En service;08/09/2021 11:28;08/09/2023 11:28;24 Mois;NA;
 FEP;FEP-008 (SALLE CHAUDE N°4);Soaking room;;CFEP0005;40 °C;±2 °C;Conforme;En service;26/08/2021 10:45;26/08/2023 10:45;24 Mois;NA;"réunion 02/02/2018: Non conforme, Prévoir une maintenance. Utilisation avec Thermocouple contrôle régulier.
 
 12/07/2018; Vérification étanchéité de la porte.+ brassage de la salle.
@@ -95,9 +75,8 @@ FEP;FEP-003;Pressure sensor;;CFEP0146;0/100 mbar;±0,5 mbar;Conforme;Alerte Etal
 FEP;FEP-003;Pressure sensor;;CFEP0147;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;21/07/2021 09:27;21/07/2023 09:27;24 Mois;4438516;
 FEP;FEP-036 (ORVR);Pressure sensor;;CFEP0149;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;21/07/2021 09:41;21/07/2023 09:41;24 Mois;10170020;
 FEP;FEP-026 (SALLE CHAUDE N°7) ;Soaking room;;CFEP0202;-40/+70 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;01/08/2022 00:00;01/08/2023 00:00;12 Mois;NA;
-FEP;FEP-0330 ESS;FEP-033 (Petrol station) Flow measuring chain;Identification : CFEP0048, N° de Série : SANS;CFEP0221;"0/120 L; 5/60 L/min";"±0,3 L; ±1 L/min";Conforme;En service;16/09/2021 08:47;16/09/2023 08:47;24 Mois;NA;
-FEP;FEP-0330 DIES;FEP-033 (Diesel station) Flow measuring chain;Identification : CFEP0048, N° de Série : SANS;CFEP0222;"0/120 L; 10/109 L/min";"±0,3 L; ±1 L/min";Conforme;En service;16/09/2021 08:48;16/09/2023 08:48;24 Mois;;
-FEP;CANNE VIDE-FUT\SHED;Volumeter;;CFEP0256;0/120 L;±1 %RV;Conforme;En service;21/09/2020 11:02;21/09/2023 11:02;36 Mois;Ln1425887;
+FEP;STATION MOBILE;Volumeter;;CFEP0217;0/120 L;±1 %RV;Conforme;Dépassement tolérance Etalonnage/Vérification;28/01/2021 16:11;28/01/2023 16:11;24 Mois;NA;
+FEP;STATION MOBILE ESS;Volumeter;;CFEP0218;0/120 L;±1 %RV;Conforme;Dépassement tolérance Etalonnage/Vérification;29/01/2021 09:04;29/01/2023 09:04;24 Mois;Ln1352632;
 FEP;FEP-009;Linear displacement transducer;;CFEP0272-D01;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;10/08/2022 09:07;10/08/2023 09:07;12 Mois;67048;
 FEP;FEP-009;Linear displacement transducer;;CFEP0272-D02;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;10/08/2022 10:10;10/08/2023 10:10;12 Mois;67034;
 FEP;FEP-009;Linear displacement transducer;;CFEP0272-D03;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;10/08/2022 10:29;10/08/2023 10:29;12 Mois;67045;
@@ -113,21 +92,21 @@ FEP;FEP-009;Linear displacement transducer;;CFEP0272-D12;0/100 mm;± 1 mm;Confor
 FEP;FEP-009;Linear displacement transducer;;CFEP0272-D13;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;10/08/2022 15:06;10/08/2023 15:06;12 Mois;67033;
 FEP;FEP-009;Linear displacement transducer;;CFEP0272-D14;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;10/08/2022 15:10;10/08/2023 15:10;12 Mois;67032;
 FEP;FEP-009;Linear displacement transducer;;CFEP0272-D15;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;10/08/2022 15:13;10/08/2023 15:13;12 Mois;67046;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D16;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 09:11;11/08/2023 09:11;12 Mois;67052;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D17;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 09:17;11/08/2023 09:17;12 Mois;67053;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D18;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 09:19;11/08/2023 09:19;12 Mois;67029;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D19;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 00:00;11/08/2023 00:00;12 Mois;67031;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D20;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 09:26;11/08/2023 09:26;12 Mois;67036;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D21;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 10:10;11/08/2023 10:10;12 Mois;67056;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D22;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 10:14;11/08/2023 10:14;12 Mois;67028;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D23;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 10:25;11/08/2023 10:25;12 Mois;67043;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D24;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 10:28;11/08/2023 10:28;12 Mois;67047;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D25;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 10:32;11/08/2023 10:32;12 Mois;67039;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D26;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 11:26;11/08/2023 11:26;12 Mois;67035;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D27;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 11:28;11/08/2023 11:28;12 Mois;67057;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D28;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 11:32;11/08/2023 11:32;12 Mois;67055;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D29;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 11:37;11/08/2023 11:37;12 Mois;67042;
-FEP;FEP-009;Linear displacement transducer;;CFEP0272-D30;0/100 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;11/08/2022 11:44;11/08/2023 11:44;12 Mois;67051;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D16;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 09:11;11/08/2023 09:11;12 Mois;67052;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D17;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 09:17;11/08/2023 09:17;12 Mois;67053;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D18;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 09:19;11/08/2023 09:19;12 Mois;67029;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D19;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 00:00;11/08/2023 00:00;12 Mois;67031;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D20;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 09:26;11/08/2023 09:26;12 Mois;67036;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D21;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 10:10;11/08/2023 10:10;12 Mois;67056;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D22;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 10:14;11/08/2023 10:14;12 Mois;67028;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D23;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 10:25;11/08/2023 10:25;12 Mois;67043;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D24;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 10:28;11/08/2023 10:28;12 Mois;67047;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D25;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 10:32;11/08/2023 10:32;12 Mois;67039;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D26;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 11:26;11/08/2023 11:26;12 Mois;67035;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D27;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 11:28;11/08/2023 11:28;12 Mois;67057;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D28;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 11:32;11/08/2023 11:32;12 Mois;67055;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D29;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 11:37;11/08/2023 11:37;12 Mois;67042;
+FEP;FEP-009;Linear displacement transducer;;CFEP0272-D30;0/100 mm;± 1 mm;Conforme;En service;11/08/2022 11:44;11/08/2023 11:44;12 Mois;67051;
 FEP;FEP-009;Pressure sensor;Identification : CLAB0253, N° de Série : 16CD849;CFEP0272-P01;-300/600 mbar;±1,5 mbar;Conforme;Alerte Etalonnage/Vérification;09/08/2022 09:48;09/08/2023 09:48;12 Mois;6940103;15/06/2021: instrument en maintenance, voir soft en cours. instrument en prison
 FEP;FEP-009;Pressure sensor;Identification : CLAB0253, N° de Série : 16CD849;CFEP0272-P02;-300/600 mbar;±1,5 mbar;Conforme;Alerte Etalonnage/Vérification;09/08/2022 09:56;09/08/2023 09:56;12 Mois;"6940101	 ";15/06/2021: instrument en maintenance, voir soft en cours. instrument en prison
 FEP;FEP-009;Pressure sensor;Identification : CLAB0253, N° de Série : 16CD849;CFEP0272-P03;-300/600 mbar;±1,5 mbar;Conforme;Alerte Etalonnage/Vérification;09/08/2022 10:11;09/08/2023 10:11;12 Mois;6940102;15/06/2021: instrument en maintenance, voir soft en cours. instrument en prison
@@ -143,26 +122,30 @@ FEP;FEP-009;Thermocouple;;CFEP0272-T07;-40/+80 °C;±1,5 °C;Conforme;Alerte Eta
 FEP;FEP-009;Thermocouple;;CFEP0272-T08;-40/+80 °C;±1,5 °C;Conforme;Alerte Etalonnage/Vérification;09/08/2022 15:21;09/08/2023 15:21;12 Mois;T8;
 FEP;FEP-009;Thermocouple;;CFEP0272-T09;-40/+80 °C;±1,5 °C;Conforme;Alerte Etalonnage/Vérification;09/08/2022 15:23;09/08/2023 15:23;12 Mois;T9;
 FEP;FEP-009;Thermocouple;;CFEP0272-T10;-40/+80 °C;±1,5 °C;Conforme;Alerte Etalonnage/Vérification;09/08/2022 15:25;09/08/2023 15:25;12 Mois;T10;
+FEP;FEP-051;Soaking room;;CFEP0312;0/+45 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;20/06/2022 14:01;20/06/2023 14:01;12 Mois;60 226 234 380 010;
+IVC;IVC\PROTO;Four thermostaté;;CIVC0030;150 °C;± 5 °C;Conforme;Alerte Etalonnage/Vérification;15/06/2021 13:26;15/06/2023 13:26;24 Mois;5,95E+13;
 IVC;IVC\PROTO;Banc de traction;;CIVC0031;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;11/07/2022 00:00;11/07/2023 00:00;12 Mois;SANS;
 IVC;IVC\SCR (BANC DE TRACTION);Banc de traction;Identification : CIVC0036, N° de Série : SANS;CIVC0035;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;11/07/2022 00:00;11/07/2023 00:00;12 Mois;SANS;
 IVC;IVC\SCR (BANC DE TRACTION);Capteur de force;;CIVC0036;500N /+10kN;+/-0,5%;Conforme;Alerte Etalonnage/Vérification;11/07/2022 13:46;11/07/2023 13:46;12 Mois;SANS;
 IVC;IVC\PROTO;Pied à coulisse;;CIVC0065;0/+160mm;± 0,1 mm;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;sans;
 IVC;IVC\SCR;Pied à coulisse;;CIVC0074;0/+150mm;± 0,1 mm;Conforme;Alerte Etalonnage/Vérification;09/08/2022 00:00;09/08/2023 00:00;12 Mois;sans;
+IVC;APL - GAUGING STATION;Thermocouple;;CIVC0117;-40/+100 °C;±2 °C;;Perdu;;;;;
 SCR;A-SCR-02;NI USB 6211;;CLAB0398;"Analog Input: -10/10 V; -5/5 V; Counter: 0/5 Mhz";"Analog Input: -10/10 V; -5/5 V Counter: 0/5 Mhz";Conforme;Alerte Etalonnage/Vérification;05/08/2020 00:00;05/08/2023 00:00;36 Mois;1B82ECA;
-SCR;A-SCR-02;NI 9211;;CLAB0399;-80/+80 mV;±0,06 %RV;Conforme;Alerte Etalonnage/Vérification;17/08/2020 00:00;17/08/2023 00:00;36 Mois;1BC2E30;
-SCR;PPM-SCR-02;NI 9211;;CLAB0400;-80/+80 mV;±0,06 %RV;Conforme;Alerte Etalonnage/Vérification;17/08/2020 21:27;17/08/2023 21:27;36 Mois;1BC2E74;
+SCR;A-SCR-02;NI 9211;;CLAB0399;-80/+80 mV;±0,06 %RV;Conforme;En service;17/08/2020 00:00;17/08/2023 00:00;36 Mois;1BC2E30;
+SCR;PPM-SCR-02;NI 9211;;CLAB0400;-80/+80 mV;±0,06 %RV;Conforme;En service;17/08/2020 21:27;17/08/2023 21:27;36 Mois;1BC2E74;
 LMA;LMA001 (BANC TRACTION);Load sensor;;CLMA0003;0/10000 N;±0,5 %RV;Conforme;Alerte Etalonnage/Vérification;12/07/2022 00:00;12/07/2023 00:00;12 Mois;108406;
 LMA;LMA001 (BANC TRACTION);Load sensor;;CLMA0004;0/1000 N;±0,5 %RV;Conforme;Alerte Etalonnage/Vérification;12/07/2022 00:00;12/07/2023 00:00;12 Mois;108406;
 LMA;LMA001 (BANC TRACTION);Speed sensor;;CLMA0006;0/500 mm/min;±0,5 %RV;Conforme;Alerte Etalonnage/Vérification;12/07/2022 00:00;12/07/2023 00:00;12 Mois;108406;
-LMA;MET-026 BANC CHOC DE MASSE;Length gauge;;CLMA0011-A;0/500 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;17/08/2021 11:16;17/08/2023 11:16;24 Mois;NA;
-LMA;MET-026 BANC CHOC DE MASSE;Length gauge;;CLMA0011-B;0/500 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;17/08/2021 11:24;17/08/2023 11:24;24 Mois;NA;
-LMA;MET-026 BANC CHOC DE MASSE;Length gauge;;CLMA0011-C;0/500 mm;± 1 mm;Conforme;Alerte Etalonnage/Vérification;17/08/2021 11:21;17/08/2023 11:21;24 Mois;NA;
+MET;LMA009 (PROJECTEUR DE PROFIL);Profil projector;;CLMA0007;0/100 mm;±4 µm;Conforme;Retard (dans tolérance) Etalonnage/Vérification;01/06/2021 11:43;01/06/2023 11:43;24 Mois;590133;
+LMA;MET-026 BANC CHOC DE MASSE;Length gauge;;CLMA0011-A;0/500 mm;± 1 mm;Conforme;En service;17/08/2021 11:16;17/08/2023 11:16;24 Mois;NA;
+LMA;MET-026 BANC CHOC DE MASSE;Length gauge;;CLMA0011-B;0/500 mm;± 1 mm;Conforme;En service;17/08/2021 11:24;17/08/2023 11:24;24 Mois;NA;
+LMA;MET-026 BANC CHOC DE MASSE;Length gauge;;CLMA0011-C;0/500 mm;± 1 mm;Conforme;En service;17/08/2021 11:21;17/08/2023 11:21;24 Mois;NA;
+LMA;LMA012 (BANC PROPRETÉ);Scale;;CLMA0014;0/220 g;±0,01 g;Conforme;Etalonnage/Vérification en cours;07/06/2021 10:20;07/06/2023 10:20;24 Mois;XS204DR;
 LMA;LMA001 (BANC TRACTION);Pull test bench;"Identification : CLMA0003, N° de Série : 108406
 Identification : CLMA0004, N° de Série : 108406
 Identification : CLMA0053, N° de Série : 100N0656";CLMA0019;;/;Conforme;Alerte Etalonnage/Vérification;12/07/2022 13:58;12/07/2023 13:58;12 Mois;NA;
 LMA;ARMOIRE;Temperature display;;CLMA0049;-40/+190 °C;±2 °C;Conforme;En service;23/08/2021 15:15;23/08/2023 15:15;24 Mois;NA;
 LMA;LMA001 (BANC TRACTION);Load sensor;;CLMA0053;0/100 N;±0,5 %RV;Conforme;Alerte Etalonnage/Vérification;12/07/2022 13:57;12/07/2023 13:57;12 Mois;100N0656;
-MET;O. ROUTIER;Caliper;;CMAG0027;0/150 mm;± 0,1 mm;Conforme;En service;15/09/2021 00:00;15/09/2023 00:00;24 Mois;190486;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0030;-100/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;15/07/2021 08:35;15/07/2023 08:35;24 Mois;2742595;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0032;-500/+500 mbar;±4 mbar;Conforme;Alerte Etalonnage/Vérification;19/07/2021 16:05;19/07/2023 16:05;24 Mois;2562724;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0033;0/250 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;19/07/2021 09:07;19/07/2023 09:07;24 Mois;2116554;
@@ -170,70 +153,103 @@ EPE;A-ATEX-01;Pressure sensor;;CMAG0037;-400/+400 mbar;±2 mbar;Conforme;Alerte 
 EPE;A-ATEX-01;Pressure sensor;;CMAG0038;-100/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;15/07/2021 08:31;15/07/2023 08:31;24 Mois;2742593;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0041;0/1 bar;±10 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 13:49;23/07/2023 13:49;24 Mois;485163;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0044;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;15/07/2021 08:19;15/07/2023 08:19;24 Mois;2749896;
+EPE;A-ATEX-01;Pressure sensor;;CMAG0047;0/100 mbar;±0,5 mbar;Conforme;Etalonnage/Vérification en cours;06/06/2021 00:00;06/06/2023 00:00;24 Mois;2690855;"0/100 mbar
+
+Disparu depuis le 17/03/2017"
 EPE;A-ATEX-01;Pressure sensor;;CMAG0048;0/250 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;19/07/2021 09:15;19/07/2023 09:15;24 Mois;1469273;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0049;-100/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;15/07/2021 00:00;15/07/2023 00:00;24 Mois;2699199;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0050;0/10 bar;±20 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 09:36;23/07/2023 09:36;24 Mois;2617916;
-MET;ARMOIRE BASSE;Mechanical comparator;;CMAG0066;0/10 mm;±0,05 mm;Conforme;En service;15/09/2021 00:00;15/09/2023 00:00;24 Mois;2513;
+MET;A-MET-01;Three points micrometer;;CMAG0062;12/16 mm;±5 µm;Conforme;Etalonnage/Vérification en cours;03/06/2021 00:00;03/06/2023 00:00;24 Mois;NA;
+MET;ARMOIRE;Bore micrometer;;CMAG00625;4,5/5,5 mm;±5 µm;Conforme;Etalonnage/Vérification en cours;03/06/2021 00:00;03/06/2023 00:00;24 Mois;/;
+MET;ARMOIRE;Standard ring;;CMAG0068;16 mm;±5 µm;Conforme;Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;122451;
+MET;A-MET-01;Three points micrometer;;CMAG0069;12/16 mm;±5 µm;Conforme;Etalonnage/Vérification en cours;03/06/2021 00:00;03/06/2023 00:00;24 Mois;246348;
+MET;A-MET-01;Three points micrometer;;CMAG0070;16/20 mm;±5 µm;Conforme;Etalonnage/Vérification en cours;03/06/2021 00:00;03/06/2023 00:00;24 Mois;245907;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0094;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 13:41;13/07/2023 13:41;24 Mois;2439840;
+MET;ARMOIRE;Mechanical comparator;;CMAG0099;0/20 mm;±0,02 mm;Conforme;Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;7305;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0103;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 15:08;13/07/2023 15:08;24 Mois;2749892;
+SCR;A-SCR-02;Caliper;;CMAG0107;0/200 mm;±0,1 mm;Conforme;Envoi Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;NA;
 COM;A-COM-01;Torque wrench;;CMAG0109;40/200 Nm;±4 %RV;Conforme;Alerte Etalonnage/Vérification;27/07/2021 11:28;27/07/2023 11:28;24 Mois;221933;
+MET;ARMOIRE;Mechanical comparator;;CMAG0111;0/10 mm;±0,05 mm;Conforme;Envoi Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;NA;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0155;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 11:30;13/07/2023 11:30;24 Mois;2749889;
+MET;ARMOIRE BASE;Height gauge;;CMAG0179;0/300 mm;±0,1 mm;;Perdu;;;;NA;
+COM;A-COM-01;Height gauge;;CMAG0182;0/300 mm;±0,1 mm;;Perdu;;;;NA;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0185;0/250 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;20/07/2021 13:36;20/07/2023 13:36;24 Mois;NA;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0187;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 13:58;13/07/2023 13:58;24 Mois;2749895;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0188;-100/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;15/07/2021 08:26;15/07/2023 08:26;24 Mois;2699201;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0190;0/100 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 14:48;13/07/2023 14:48;24 Mois;2439832;
 EPE;A-ATEX-01;Pressure gauge;;CMAG0219;0/+70 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 11:02;13/07/2023 11:02;24 Mois;70525697;
-EPE;A-ATEX-01;Pressure sensor;;CMAG0243;0/100 mbar;±0,5 mbar;Conforme;En service;06/09/2021 10:49;06/09/2023 10:49;24 Mois;463806;
+EPE;R-ATEX-01 (P. BAUDET);Chronometer;;CMAG0230;0/1 h;±1 s;Conforme;Etalonnage/Vérification en cours;20/05/2021 15:56;20/05/2023 15:56;24 Mois;NA;
+MET;R-MET-02 (T. ESCANDE);Chronometer;;CMAG0232;0/1 h;±1 s;Conforme;Etalonnage/Vérification en cours;10/05/2021 10:09;10/05/2023 10:09;24 Mois;NA;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0261;0/10 bar;±20 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 11:37;23/07/2023 11:37;24 Mois;10131387;
-EPE;A-ATEX-01;Pressure sensor;;CMAG0270;-100/+200 mbar;±1 mbar;Conforme;En service;06/09/2021 10:24;06/09/2023 10:24;24 Mois;2019915;
+EPE;A-ATEX-02;Display of Field meter;;CMAG0269;-20/+20 kV;±5 %RV;Conforme;Envoi Envoi Etalonnage/Vérific en cours;28/10/2020 00:00;28/10/2022 00:00;24 Mois;122966;
 EPE;A-ATEX-01;Pressure sensor;;CMAG0271;-100/+100 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;13/07/2021 00:00;13/07/2023 00:00;24 Mois;2365420/2006;
-EPE;A-ATEX-02;Pressure gauge;;CMAG0282;0/2,5 bar;±50 mbar;Conforme;En service;07/09/2021 10:44;07/09/2023 10:44;24 Mois;NA;
 EPE;A-ATEX-01;Pressure gauge;;CMAG0285;0/197 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;19/07/2021 09:37;19/07/2023 09:37;24 Mois;799803;
 EPE;A-ATEX-02;Pressure gauge;;CMAG0302;-1/+3 bar;±30 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 08:25;23/07/2023 08:25;24 Mois;50906;
 EPE;A-ATEX-02;Pressure gauge;;CMAG0303;-1/+3 bar;±30 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 09:06;23/07/2023 09:06;24 Mois;50922;
 COM;A-COM-02;X channel data logger;;CMAG0306;"--40/+100°C; 0/20mV; 0/50mV; 0/100mV; 0/200mV; 0/500mV; 0/1V; 0/2V; 0/5V; 0/10V; 1/5V; 4/20mA";"±1 °C; ±0,1 %FS; ±0,4 %RV";Conforme;Alerte Etalonnage/Vérification;05/07/2022 00:00;05/07/2023 00:00;12 Mois;NA;
 EPE;A-ATEX-02;X channel data logger;;CMAG0307;"-40/+100°C; 0/20mV; 0/50mV; 0/100mV; 0/200mV; 0/500mV; 0/1V; 0/2V; 0/5V; 0/10V; 1/5V; 4/20mA";"±1 °C; ±0,1 %FS; ±0,4 %RV";Conforme;Alerte Etalonnage/Vérification;05/07/2022 00:00;05/07/2023 00:00;12 Mois;NA;
+EPE;A-ATEX-02;Thermocouple;;CMAG0421;-40/+100 °C;±2 °C;;Perdu;;;;NA;
 EPE;A-ATEX-02;Thermocouple;;CMAG0450;-40/+100 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;05/07/2021 15:57;05/07/2023 15:57;24 Mois;NA;
 MET;A-MET-01;Torque wrench;;CMAG0457;20/100 Nm;±4 %;Conforme;Alerte Etalonnage/Vérification;27/07/2021 09:53;27/07/2023 09:53;24 Mois;NA;
-EPE;MAG-001 (BANC PERTE DE CHARGE MOBILE);Flowmeter;;CMAG0486;0/6 ln/min;±1% FS;Conforme;En service;01/09/2021 00:00;01/09/2023 00:00;24 Mois;303523;
 EPE;A-ATEX-01;Pressure gauge;;CMAG0487;-1/+3 bar;±1 %RV;Conforme;Alerte Etalonnage/Vérification;20/07/2021 11:24;20/07/2023 11:24;24 Mois;151701551;
 EPE;A-ATEX-01;Pressure gauge;;CMAG0488;-1/+3 bar;±1 %RV;Conforme;Alerte Etalonnage/Vérification;20/07/2021 11:12;20/07/2023 11:12;24 Mois;170303002;
 EPE;A-ATEX-01;Pressure gauge;;CMAG0490;0/10 bar;±1 %RV;Conforme;Alerte Etalonnage/Vérification;20/07/2021 13:24;20/07/2023 13:24;24 Mois;172601050;
-MAG;ARMOIRE ;Depth gauge;;CMAG0601;0/200 mm;±0,01 mm;Conforme;En service;15/09/2021 08:40;15/09/2023 08:40;24 Mois;;
-MET;MUR OUEST;Volumeter;;CMET0013;0/120 L;±1 %RV;Conforme;En service;17/09/2020 11:38;17/09/2023 11:38;36 Mois;NA;
+EPE;A-ATEX-02;Thermocouple;;CMAG0503;-40/+100 °C;±2 °C;Conforme;En service;22/08/2022 14:31;22/08/2024 14:31;24 Mois;;
 MET;ARMOIRE;Pressure gauge;;CMET0015;0/600 mbar;±6 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 13:42;23/07/2023 13:42;24 Mois;125001485;
-MET;MUR EST;Volumeter;;CMET0019;0/120 L;±1 %RV;Conforme;En service;16/09/2020 09:54;16/09/2023 09:54;36 Mois;NA;
-MET;STATION GLYCOL;Volumeter;;CMET0020;0/120 L;±1 %RV;Conforme;En service;17/09/2020 11:27;17/09/2023 11:27;36 Mois;NA;
 MET;PENDULE CHOC;Pyramidal impactor;;CMET0028;30 J;±0,5 J;Conforme;Alerte Etalonnage/Vérification;26/06/2015 00:00;26/06/2023 00:00;96 Mois;NA;
-MET;ARMOIRE;Thermocouple;;CMET0032;-40/+100 °C;±2 °C;Conforme;En service;01/09/2021 14:11;01/09/2023 14:11;24 Mois;NA;
+MET;ARMOIRE ;Thermocouple;;CMET0031;-40/+100 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;15/06/2021 00:00;15/06/2023 00:00;24 Mois;NA;
 MET;ARMOIRE;Pressure gauge;;CMET0036;-1/+3 bar;±30 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 09:24;23/07/2023 09:24;24 Mois;50907;
-MET;R. GRIMEAU;Dynamometer;;CMET0096;0 / 5000 N; ±0,5% FS;Conforme;En service;08/09/2021 16:10;08/09/2023 16:10;24 Mois;U12785;
-NVH;ARMOIRE;Mono axis accelerometer;;CNVH0012;"± 50 g; 0,5 - 10 000Hz";"100mV/g ±10 %; <5 %RV";Conforme;En service;02/09/2022 00:00;02/09/2023 00:00;12 Mois;"453224
-33007";
+MET;MET044;Climatic chamber;;CMET0040;30/70 °C;±2 °C;Conforme;Retard (dans tolérance) Etalonnage/Vérification;16/05/2022 00:00;16/05/2023 00:00;12 Mois;NA;"02/05/2018: TOL: +/- 1°C à +/- 2°C.
+
+Utilisation avec Restriction avec Thermocouple.
+
+Restriction de la zone d'utilisation selon rapport d'étalonnage.
+ Demande de BV froid de réajuster la tolérance.
+
+
+12/07/2018:  Isolation et réglage de l'enceinte. Réajustement de l'offset.
+
+16/07/2019: Balliser la zone au milieu + mail de Jean-Philippe ROLINAT.
+
+10/11/2020: sous dérogation, utilisation de l'enceinte avec des thermocouples sur des réservoirs suis à la non conformité de juin 2020.
+
+15/06/2021: l'enceinte est mise en moyen d'approche. Utilisation avec des thermocouples sur les réservoirs.
+"
+MET;ARMOIRE;Torquemeter;;CMET0049;0/+500 Nm;± 2% FS;Conforme;Envoi Etalonnage/Vérification en cours;04/11/2020 00:00;04/11/2022 00:00;24 Mois;23;
+NVH;ARMOIRE;Mono axis accelerometer;;CNVH0007;"± 50 g; 0,5 - 10 000Hz";"100mV/g ±10 %; <5 %RV";Conforme;En service;19/04/2023 00:00;19/04/2025 00:00;24 Mois;"474604
+30514";
+NVH;ARMOIRE;Frequency calibrator;;CNVH0017;"1 kHz; 94 dB/114 dB";±0,2 dB;Conforme;Envoi Envoi Etalonnage/Vérific en cours;17/02/2021 00:00;17/02/2023 00:00;24 Mois;NA;
+NVH;ARMOIRE;Scale;;CNVH0051;0/60 kg;±10 g;Conforme;Etalonnage/Vérification en cours;07/06/2021 08:55;07/06/2023 08:55;24 Mois;NA;
 QUA;ARMOIRE;Pied à coulisse;;CQUA0021;0 / 200 mm;± 0,060 mm;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;sans;
 QUA;B. BAUDOUX;Pied à coulisse;;CQUA0024;0 / 200 mm;± 0,060 mm;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;sans;
 QUA;V. LOPATA;Pied à coulisse;;CQUA0030;0 / 200 mm;± 0,060 mm;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;1308449;
+QUA;LE SERVICE;Micromètre d'extérieur;;CQUA0052;25 - 50;Respect de la norme détalonnage;Conforme;Envoi Etalonnage/Vérification en cours;02/06/2021 00:00;02/06/2023 00:00;24 Mois;SANS;
 QUA;ARMOIRE;Mesureur d'épaisseur;;CQUA0057;0/+10 mm;Respect de la norme détalonnage;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;SANS;
 QUA;O. CASTEL;Mesureur d'épaisseur;;CQUA0068;0/+20 mm;± 0,1 mm;Conforme;En service;24/08/2021 14:06;24/08/2023 14:06;24 Mois;SANS;
-QUA;M. PEREIRA;Jauge de profondeur;;CQUA0098;0/+300 mm;Respect de la norme détalonnage;Conforme;En service;15/09/2021 08:56;15/09/2023 08:56;24 Mois;SANS;
+QUA;V. LOPATA;Mesureur d'épaisseur;;CQUA0072;0/+10 mm;Respect de la norme détalonnage;;Perdu;;;;DC02M027;
+QUA;LE SERVICE;Comparateur à tige rentrante;;CQUA0090;12,7 mm;Respect de la norme détalonnage;Conforme;Envoi Etalonnage/Vérification en cours;03/06/2021 00:00;03/06/2023 00:00;24 Mois;SANS;
+QUA;ARMOIRE;Jauge de profondeur;;CQUA0092;0/+300 mm;Respect de la norme détalonnage;Conforme;Sommeil;02/06/2021 00:00;02/06/2023 00:00;24 Mois;SANS;
+QUA;LE SERVICE;Jauge de profondeur;;CQUA0096;0/+300 mm;Respect de la norme détalonnage;Conforme;Sommeil;02/06/2021 00:00;02/06/2023 00:00;24 Mois;11370;
+MET;;Profil projector;;CQUA0108;X50 mm / Y50 mm / Angle: 0/30°;" X,Y : ±10 µm ; Angle : ±0,1°";Conforme;Retard (dans tolérance) Etalonnage/Vérification;01/06/2021 11:46;01/06/2023 11:46;24 Mois;90134;
 QUA;LE SERVICE;Bras de mesure 3D;;CQUA0123;7 Axes;Respect de la norme détalonnage;Conforme;Alerte Etalonnage/Vérification;12/07/2022 00:00;12/07/2023 00:00;12 Mois;75 35 SE-1873-FA ;
 QUA;LE SERVICE;Scanner;;CQUA0126;According Manufacturer SpecTo be defined;According Manufacturer SpecTo be defined;Conforme;Alerte Etalonnage/Vérification;12/07/2022 00:00;12/07/2023 00:00;12 Mois;75 35 SE-1873-FA ;
+QUA;LE SERVICE;Cale étalon;;CQUA0130;1,005 - 60 mm;Respect de la norme détalonnage;Voir documents;Alerte Etalonnage/Vérification;20/06/2017 00:00;20/06/2023 00:00;72 Mois;SANS;
+QUA;LE SERVICE;Niveau de précision;;CQUA0140;0.02 mm/m;Respect de la norme détalonnage;;Non soumis à l'étalonnage;;;;SANS;
+QUA;LE SERVICE;Balance;;CQUA0144;50kg;±100 g;Conforme;Alerte Etalonnage/Vérification;18/06/2021 15:15;18/06/2023 15:15;24 Mois;SANS;
+QUA;LE SERVICE;Balance;;CQUA0145;50kg;±100 g;Conforme;Alerte Etalonnage/Vérification;18/06/2021 15:13;18/06/2023 15:13;24 Mois;SANS;
+QUA;LE SERVICE;Pied à coulisse;;CQUA0191;0 / 200 mm;Respect de la norme détalonnage;Conforme;Sommeil;02/06/2021 00:00;02/06/2023 00:00;24 Mois;sans;
 QUA;ARMOIRE;Pied à coulisse;;CQUA0192;0 / 200 mm;Respect de la norme détalonnage;Conforme;En service;24/08/2021 00:00;24/08/2023 00:00;24 Mois;sans;
+QUA;ARMOIRE;Bras de mesure 3D;;CQUA0239;7 Axes;Respect de la norme détalonnage;Conforme;Dépassement tolérance Etalonnage/Vérification;26/04/2022 10:29;26/04/2023 10:29;12 Mois;75 40 SI- 4908-FA;
 QUA;TAYLOR HOBSON;CALE ETALON;;CQUA0248;To be defined;To be defined;Conforme;En service;08/08/2018 13:48;08/08/2023 13:48;60 Mois;112/4319;
 QUA;TAYLOR HOBSON;CALE ETALON;;CQUA0249;To be defined;To be defined;Conforme;En service;08/08/2018 13:50;08/08/2023 13:50;60 Mois;112-2233;
-ZONE CALIBRATION;;Air Flow Standard;;CQUA0287-01;0/100L/min;According Manufacturer SpecTo be defined;Conforme;En service;02/09/2021 00:00;02/09/2023 00:00;24 Mois;27691SPF;
-ZONE CALIBRATION;;Air Flow Standard;;CQUA0287-02;0/2L/min;According Manufacturer SpecTo be defined;Conforme;En service;02/09/2021 00:00;02/09/2023 00:00;24 Mois;27688 SPF;
-ZONE CALIBRATION;;Air Flow Standard;;CQUA0287-03;0/0,5L/min;According Manufacturer SpecTo be defined;Conforme;En service;01/09/2021 00:00;01/09/2023 00:00;24 Mois;27690 SPF;
-SCF;ROULANTE INGENIEUR ATEX;Depth gauge;;CSCF0004;0/300 mm;±0,1 mm;Conforme;En service;15/09/2021 08:32;15/09/2023 08:32;24 Mois;110486;
+QUA;ARMOIRE;Bras de mesure 3D;;CQUA0250;7 Axes;Respect de la norme détalonnage;Conforme;Envoi Etalonnage/Vérification en cours;10/01/2022 14:47;10/01/2023 14:47;12 Mois; 75 35 SI-5975-FA;
 SCR;SCR-011;Climatic chamber;;CSCR0007;-40/+100 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;11/07/2022 11:25;11/07/2023 11:25;12 Mois;5,6766E+13;"12/07/2018: Enceinte remis en  NON  conforme.
 
 Utilisation avec un thermocouple étalonnée + afficheur de température.
 
 Maintenance changement de la résistance.
 "
-SCR;A-SCR-02;Pressure sensor;;CSCR0017;-200/+200 mbar;±2 mbar;Conforme;En service;07/09/2021 15:48;07/09/2023 15:48;24 Mois;2626861;
-SCR;A-SCR-04;Depth gauge;;CSCR0019;0/500 mm;±0,1 mm;Conforme;En service;15/09/2021 08:36;15/09/2023 08:36;24 Mois;NA;
-SCR;A-SCR-02;Pressure sensor;;CSCR0066;0/10 bar;±20 mbar;Conforme;En service;07/09/2021 10:38;07/09/2023 10:38;24 Mois;2626867;
+SCR;SCR-003;Climatic chamber;;CSCR0009;-40/+100 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;15/06/2022 09:10;15/06/2023 09:10;12 Mois;8540;
 SCR;A-SCR-02;Multimeter;;CSCR0088;"0/1 kOhm; 0/100 kOhm; 0/1 Mohm; 0/100V DC; 0/3 A DC";"±20 mOhm; ±2 Ohm; ±30 Ohm;  ±10 mV; ±5 mA";Conforme;Alerte Etalonnage/Vérification;01/08/2022 00:00;01/08/2023 00:00;12 Mois;MY47068320;
 SCR;PPM-SCR-10;Stabilized power supply;;CSCR0159;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;05/08/2021 10:16;05/08/2023 10:16;24 Mois;LOC-317A037-0002;
 SCR;PPM-SCR-10;Stabilized power supply;;CSCR0160;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;05/08/2021 11:06;05/08/2023 11:06;24 Mois;LOC-319A191-0006;
@@ -241,16 +257,20 @@ SCR;PPM-SCR-10;Stabilized power supply;;CSCR0161;"0/20 V;0/38 A";"± 0,5V; Appro
 SCR;PPM-SCR-10;Stabilized power supply;;CSCR0162;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;05/08/2021 11:42;05/08/2023 11:42;24 Mois;LOC-3210A086-0002;
 SCR;PPM-SCR-10;Stabilized power supply;;CSCR0163;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;05/08/2021 13:10;05/08/2023 13:10;24 Mois;LOC-321A086-0006;
 SCR;PPM-SCR-10;Stabilized power supply;;CSCR0164;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;05/08/2021 13:20;05/08/2023 13:20;24 Mois;LOC-321A086-0003;
+SCR;TO BE DEFINED;Stabilized power supply;;CSCR0165;"0/20 V;0/38 A";Approach device;;Non soumis à l'étalonnage;;;;LOC-424A180-0007;
 SCR;PPM-SCR-14;Stabilized power supply;"Identification : CLAB0415, N° de Série : 1CAC4FE
 Identification : CLAB0067, N° de Série : 1A68C10";CSCR0166;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;07/07/2021 14:46;07/07/2023 14:46;24 Mois;NA;
 SCR;PPM-SCR-14;Stabilized power supply;;CSCR0167;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;08/07/2021 10:30;08/07/2023 10:30;24 Mois;LOC-141Z112-0001;
 SCR;PPM-SCR-14;Stabilized power supply;;CSCR0168;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;07/07/2021 14:40;07/07/2023 14:40;24 Mois;LOC-141Z112-0008;
 SCR;PPM-SCR-14;Stabilized power supply;;CSCR0169;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;07/07/2021 14:48;07/07/2023 14:48;24 Mois;NA;
 SCR;PPM-SCR-14;Stabilized power supply;;CSCR0170;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;07/07/2021 14:52;07/07/2023 14:52;24 Mois;NA;
-SCR;SCR-029;Climatic chamber;;CSCR0184;-40/+100 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;15/08/2022 09:00;15/08/2023 09:00;12 Mois;5,6766E+13;"
+SCR;SCR-029;Climatic chamber;;CSCR0184;-40/+100 °C;±2 °C;Conforme;En service;15/08/2022 09:00;15/08/2023 09:00;12 Mois;5,6766E+13;"
 02/05/2018: TOL: +/- 1,5 °C à +/- 2°C."
+SCR;A-SCR-02;Refractometer;;CSCR0203;0/ 54,2%;± 0,3 %;Conforme;Envoi Envoi Etalonnage/Vérific en cours;22/04/2021 12:38;22/04/2023 12:38;24 Mois;H932082;
 SCR;A-SCR-02;Multimeter;;CSCR0217;"0/1 kOhm; 0/100 kOhm; 0/1 Mohm; 0/100V DC; 0/3 A DC";"±20 mOhm; ±2 Ohm; ±30 Ohm;  ±10 mV; ±5 mA";Conforme;Alerte Etalonnage/Vérification;21/06/2022 00:00;21/06/2023 00:00;12 Mois;NA;
-SCR;PPM-SCR-04;Stabilized power supply;;CSCR0269;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;21/09/2021 13:26;21/09/2023 13:26;24 Mois;NA;
+SCR;A-SCR-02;Pressure sensor;;CSCR0219;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;16/06/2021 14:00;16/06/2023 14:00;24 Mois;4362264;
+SCR;A-SCR-02;Pressure sensor;;CSCR0221;0/100 mbar;±0,5 mbar;Conforme;Alerte Etalonnage/Vérification;14/06/2021 00:00;14/06/2023 00:00;24 Mois;4366027;
+SCR;SCR AREA;Scale;;CSCR0301;0/30 kg;±0,01 %RV;Conforme;Retard (dans tolérance) Etalonnage/Vérification;09/06/2021 11:50;09/06/2023 11:50;24 Mois;NA;
 SCR;MET003 ;Climatic chamber;;CSCR0313;-40/+100 °C;±2 °C;Conforme;Alerte Etalonnage/Vérification;12/07/2022 13:41;12/07/2023 13:41;12 Mois;5240;"
 02/05/2018: TOL: +/- 1,5 °C à +/- 2°C."
 SCR;PPM-SCR-14;Stabilized power supply;;CSCR0316;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;07/07/2021 14:55;07/07/2023 14:55;24 Mois;NA;
@@ -262,21 +282,22 @@ SCR;PPM-SCR-21;Stabilized power supply;;CSCR0367;"0/20 V;0/38 A";"± 0,5V; Appro
 SCR;PPM-SCR-21;Stabilized power supply;;CSCR0368;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;04/08/2021 14:45;04/08/2023 14:45;24 Mois;NA;
 SCR;A-SCR-03;Pressure gauge;;CSCR0383;-1/+3 bar;±30 mbar;Conforme;Alerte Etalonnage/Vérification;27/07/2021 13:45;27/07/2023 13:45;24 Mois;NA;
 MET;ARMOIRE;Pressure gauge;;CSCR0384;-1/+3 bar;±30 mbar;Conforme;Alerte Etalonnage/Vérification;23/07/2021 09:17;23/07/2023 09:17;24 Mois;50358;
-SCR;PPM-SCR-13;Stabilized power supply;;CSCR0410;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;13/09/2021 14:46;13/09/2023 14:46;24 Mois;NA;
-SCR;PPM-SCR-13;Stabilized power supply;;CSCR0411;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;13/09/2021 13:42;13/09/2023 13:42;24 Mois;NA;
-SCR;PPM-SCR-13;Stabilized power supply;;CSCR0428;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;14/09/2021 11:39;14/09/2023 11:39;24 Mois;LOC-617A080-0001;
-SCR;PPM-SCR-13;Stabilized power supply;;CSCR0429;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;14/09/2021 14:27;14/09/2023 14:27;24 Mois;LOC-617A080-0002;
-SCR;PPM-SCR-13;Stabilized power supply;;CSCR0430;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;14/09/2021 14:37;14/09/2023 14:37;24 Mois;LOC-617A086-0006;
-SCR;PPM-SCR-13;Stabilized power supply;;CSCR0431;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;14/09/2021 14:51;14/09/2023 14:51;24 Mois;LOC-617A086-0007;
+SCR;A-SCR-03;Pressure gauge;;CSCR0386;-1/+3 bar;±30 mbar;;Perdu;;;;50908;
+SCR;SCR AREA;Pressure gauge;;CSCR0387;-1/+3 bar;±30 mbar;;Perdu;;;;50375;
+SCR;PERDU;Height gauge;;CSCR0462;0/300 mm;±0,1 mm;Conforme;Envoi Etalonnage/Vérification en cours;03/06/2021 00:00;03/06/2023 00:00;24 Mois;G302974;
 SCR;A-SCR-02;OXYMETER;;CSCR0471;10/190 %;±1.5%;Conforme;Alerte Etalonnage/Vérification;25/06/2021 00:00;25/06/2023 00:00;24 Mois;16091684;
-SCR;A-SCR-01;Thermocouple;;CSCR0540;-40/+100 °C;±2 °C;Conforme;En service;08/09/2021 10:36;08/09/2023 10:36;24 Mois;NA;
 SCR;A-SCR-02;Pressure sensor;;CSCR0646;-200/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;05/07/2021 14:46;05/07/2023 14:46;24 Mois;10637505;
 SCR;A-SCR-02;Pressure sensor;;CSCR0648;-200/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;05/07/2021 14:53;05/07/2023 14:53;24 Mois;10637495;
+SCR;A-SCR-02;Pressure sensor;;CSCR0656;-200/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;15/06/2021 09:58;15/06/2023 09:58;24 Mois;10667717;
+SCR;A-SCR-02;Pressure sensor;;CSCR0657;-200/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;14/06/2021 00:00;14/06/2023 00:00;24 Mois;10667719;
+SCR;A-SCR-02;Pressure sensor;;CSCR0659;-200/+200 mbar;±1 mbar;Conforme;Alerte Etalonnage/Vérification;16/06/2021 00:00;16/06/2023 00:00;24 Mois;10667721;
 SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0681;-40/+150 °C;±1 °C;Conforme;Alerte Etalonnage/Vérification;02/08/2021 09:02;02/08/2023 09:02;24 Mois;NA;
 SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0687;-40/+150 °C;±1 °C;Conforme;Alerte Etalonnage/Vérification;02/08/2021 16:14;02/08/2023 16:14;24 Mois;NA;
 SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0701;-40/+150 °C;±1 °C;Conforme;Alerte Etalonnage/Vérification;02/08/2021 08:57;02/08/2023 08:57;24 Mois;NA;
-SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0706;-40/+150 °C;±1 °C;Conforme;Alerte Etalonnage/Vérification;02/08/2021 08:48;02/08/2023 08:48;24 Mois;NA;
+SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0705;-40/+100 °C;±1 °C;;Perdu;;;;NA;
+SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0707;-40/+100 °C;±1 °C;;Réformé;;;;NA;
 SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0713;-40/+150 °C;±1 °C;Conforme;Alerte Etalonnage/Vérification;02/08/2021 00:00;02/08/2023 00:00;24 Mois;NA;
+SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0716;-40/+150 °C;±1 °C;;Perdu;;;;NA;
 SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0724;-40/+150 °C;±1 °C;Conforme;Alerte Etalonnage/Vérification;02/08/2021 09:01;02/08/2023 09:01;24 Mois;NA;
 SCR;PPM-SCR-29;Stabilized power supply;;CSCR0738;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;06/08/2021 10:13;06/08/2023 10:13;24 Mois;LOC-747A083-0005;
 SCR;PPM-SCR-29;Stabilized power supply;;CSCR0739;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;06/08/2021 10:46;06/08/2023 10:46;24 Mois;LOC-805A375-0027;
@@ -284,14 +305,11 @@ SCR;PPM-SCR-29;Stabilized power supply;;CSCR0740;"0/20 V;0/38 A";"± 0,5V; Appro
 SCR;PPM-SCR-29;Stabilized power supply;;CSCR0741;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;06/08/2021 11:22;06/08/2023 11:22;24 Mois;LOC-747A083-0007;
 SCR;PPM-SCR-29;Stabilized power supply;;CSCR0742;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;06/08/2021 11:33;06/08/2023 11:33;24 Mois;LOC-804A199-0006;
 SCR;PPM-SCR-29;Stabilized power supply;;CSCR0743;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;Alerte Etalonnage/Vérification;06/08/2021 11:37;06/08/2023 11:37;24 Mois;LOC-747A083-0013;
-SCR;PPM-SCR-04;Stabilized power supply;;CSCR0758;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;21/09/2021 11:33;21/09/2023 11:33;24 Mois;loc-428a316-0020;
-SCR;A-SCR-02;Caliper;;CSCR0850;0/150 mm;± 0,1 mm;Conforme;En service;15/09/2021 00:00;15/09/2023 00:00;24 Mois;18091517;
-SCR;A-SCR-02;Caliper;;CSCR0851;0/150 mm;± 0,1 mm;Conforme;En service;15/09/2021 08:46;15/09/2023 08:46;24 Mois;18091562;
-SCR;A-SCR-01;Thermocouple;Identification : /;CSCR0854;-40/+150 °C;±1 °C;Conforme;En service;08/09/2021 10:16;08/09/2023 10:16;24 Mois;NA;
 SCR;PPM-SCR-14;Temperature measuring chain;"Identification : CLAB0173, N° de Série : 167C8OC
 Identification : CLAB0067, N° de Série : 1A68C10";CSCR0918;-50/150 °C;±0,5°C;Conforme;Alerte Etalonnage/Vérification;06/07/2021 13:31;06/07/2023 13:31;24 Mois;/;
 SCR;PPM-SCR-14;Temperature measuring chain;"Identification : CLAB0067, N° de Série : 1A68C10
 Identification : CLAB0208, N° de Série : 189CB98";CSCR0919;-50/150 °C;±0,5°C;Conforme;Alerte Etalonnage/Vérification;06/07/2021 13:54;06/07/2023 13:54;24 Mois;;
+SCR;BANC CYCLAGE HYDRAULIQUE;Pressure sensor;;CSCR0930;0/1600 bar;±0.35 % fs;Conforme;En service;31/03/2023 00:00;31/03/2025 00:00;24 Mois;33336;
 SCR;PPM-SCR-21;Temperature measuring chain;"Identification : CLAB0185, N° de Série : 189D87
 Identification : CLAB0107, N° de Série : HC1961372";CSCR0931;-50/150 °C;±0,5°C;Conforme;Alerte Etalonnage/Vérification;04/08/2021 15:49;04/08/2023 15:49;24 Mois;;
 SCR;PPM-SCR-21;Temperature measuring chain;"Identification : CLAB0185, N° de Série : 189D87
@@ -309,13 +327,5 @@ Identification : CLAB0081, N° de Série : HC1961434";CSCR0937;-50/150 °C;±0,5
 SCR;PPM-SCR-19;Temperature measuring chain;"Identification : CLAB0201, N° de Série : 1808C8E
 Identification : CLAB0417, N° de Série : 1C85178";CSCR0938;-50/150 °C;±0,5°C;Conforme;Alerte Etalonnage/Vérification;09/08/2021 14:37;09/08/2023 14:37;24 Mois;;
 SCR;A-SCR-02;Refractometer;;CSCR0939;0/ 54,2%;± 0,3 %;Conforme;Alerte Etalonnage/Vérification;04/08/2021 00:00;04/08/2023 00:00;24 Mois;6,68E+70;
-SCR;E-VALVE BENCH 1;Stabilized power supply;;CSCR0952;0, 5 V;± 1 % FS ;Conforme;En service;17/09/2021 10:43;17/09/2023 10:43;24 Mois;;
-SCR;E-VALVE BENCH 1;Stabilized power supply;;CSCR0953;0, 12 V;± 1 % FS ;Conforme;En service;17/09/2021 10:49;17/09/2023 10:49;24 Mois;;
-SCR;E-VALVE BENCH 1;Stabilized power supply;;CSCR0954;0, 24 V;±1 % FS;Conforme;En service;17/09/2021 11:03;17/09/2023 11:03;24 Mois;;
-SCR;E-VALVE BENCH 1;Stabilized power supply;;CSCR0955;0, 9 , 12, 16 V;± 1 % FS ;Conforme;En service;17/09/2021 11:26;17/09/2023 11:26;24 Mois;/;
-SCR;PPM-SCR-13;Temperature measuring chain;"Identification : CLAB0431, N° de Série : 1C8521E
-Identification : CLAB0342, N° de Série : E01FDC";CSCR0963;-50/150 °C;±0,5°C;Conforme;En service;14/09/2021 16:21;14/09/2023 16:21;24 Mois;;
-SCR;PPM-SCR-13;Temperature measuring chain;"Identification : CLAB0156, N° de Série : 154CBEC
-Identification : CLAB0431, N° de Série : 1C8521E";CSCR0964;-50/150 °C;±0,5°C;Conforme;En service;14/09/2021 16:26;14/09/2023 16:26;24 Mois;;
-SCR;A-SCR-02;Scale;;CSCR0968;constructeur; constructeur;Conforme;Sommeil;20/09/2021 10:18;20/09/2023 10:18;24 Mois;80106508;
-SCR;PPM-SCR-04;Stabilized power supply;;CSCR0969;"0/20 V;0/38 A";"± 0,5V; Approach device";Conforme;En service;21/09/2021 15:19;21/09/2023 15:19;24 Mois;/;
+SCR;SCR-061;Climatic chamber;;CSCR1061;-40/+90 °C;±2 °C;Conforme;Retard (dans tolérance) Etalonnage/Vérification;01/06/2022 00:00;01/06/2023 00:00;12 Mois;;"
+02/05/2018: TOL: +/- 1,5 °C à +/- 2°C."
