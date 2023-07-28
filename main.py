@@ -7,7 +7,7 @@ import pandas
 import pandas as pd
 import warnings
 
-warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
+# warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 
 
 # Fournis par : Laboratoire
